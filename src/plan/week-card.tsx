@@ -9,13 +9,13 @@
 
 import { useMemo } from 'react';
 import { Plus, Trash2, BookOpen, Bookmark, GripVertical } from 'lucide-react';
-import type { NutritionWeek } from '@onecoach/types';
 import { DayCard } from './day-card';
-import type { FoodItem } from '@onecoach/types';
 import { SortableList, SortableItem, type SortableItemRenderProps } from '@onecoach/ui-core';
 import { createNutritionDayDragId } from '@onecoach/lib-shared';
 import { darkModeClasses, cn } from '@onecoach/lib-design-system';
 import { useTranslations } from 'next-intl';
+import type { NutritionWeek } from "@onecoach/types-nutrition";
+import type { FoodItem } from "@onecoach/types-nutrition";
 
 interface WeekCardProps {
   week: NutritionWeek;

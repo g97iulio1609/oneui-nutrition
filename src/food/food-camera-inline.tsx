@@ -11,9 +11,9 @@ import { useTranslations } from 'next-intl';
 import { FoodCamera, type FoodCameraMode } from './food-camera';
 import { useState } from 'react';
 import { Camera, Scan as ScanBarcode, Sparkles, ChevronRight } from 'lucide-react';
-import type { FoodItem } from '@onecoach/types';
 import { cn } from '@onecoach/lib-design-system';
 import { logger } from '@onecoach/lib-shared';
+import type { FoodItem } from "@onecoach/types-nutrition";
 
 export interface FoodCameraInlineProps {
   onFoodAdded?: (foodItem: FoodItem) => void;

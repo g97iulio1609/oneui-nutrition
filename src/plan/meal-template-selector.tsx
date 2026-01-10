@@ -10,8 +10,8 @@
 import { useTranslations } from 'next-intl';
 import { useCallback, useRef, useState, useEffect } from 'react';
 import { Search, Loader2, Bookmark, Clock, X } from 'lucide-react';
-import type { NutritionTemplate, Meal } from '@onecoach/types';
 import { useDebounce } from '@onecoach/hooks';
+import type { NutritionTemplate, Meal } from "@onecoach/types-nutrition";
 
 interface MealTemplateSelectorProps {
   onSelect?: (template: NutritionTemplate & { type: 'meal' }) => void;

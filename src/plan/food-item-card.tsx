@@ -11,10 +11,10 @@ import { useTranslations } from 'next-intl';
 
 import { useState, memo, useCallback, useLayoutEffect } from 'react';
 import { GripVertical, Trash2 } from 'lucide-react';
-import type { Food } from '@onecoach/types';
 import { MacroDisplay } from './macro-display';
 import { SortableItem, type SortableItemRenderProps } from '@onecoach/ui-core';
 import { darkModeClasses, cn } from '@onecoach/lib-design-system';
+import type { Food } from "@onecoach/types-nutrition";
 
 interface FoodItemCardProps {
   food: Food;

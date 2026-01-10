@@ -13,7 +13,6 @@
     "@onecoach/schemas": "workspace:*",
     "@onecoach/lib-design-system": "workspace:*",
     "@onecoach/ui": "workspace:*",
-    "@onecoach/types": "workspace:*",
     "@onecoach/lib-shared": "workspace:*",
     "@onecoach/lib-stores": "workspace:*",
     "@onecoach/constants": "workspace:*",
@@ -23,7 +22,16 @@
     "framer-motion": "^10.16.4",
     "clsx": "^2.0.0",
     "tailwind-merge": "^1.14.0",
-    "class-variance-authority": "^0.7.0"
+    "class-variance-authority": "^0.7.0",
+    "@onecoach/types-core": "workspace:*",
+    "@onecoach/types-workout": "workspace:*",
+    "@onecoach/types-nutrition": "workspace:*",
+    "@onecoach/types-chat": "workspace:*",
+    "@onecoach/types-analytics": "workspace:*",
+    "@onecoach/types-ai": "workspace:*",
+    "@onecoach/types-ui": "workspace:*",
+    "@onecoach/types-domain": "workspace:*",
+    "@onecoach/types-database": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18.0.0",

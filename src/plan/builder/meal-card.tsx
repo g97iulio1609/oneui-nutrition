@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { Card } from '@onecoach/ui';
 import { Trash2, ArrowUp, ArrowDown, Plus, X } from 'lucide-react';
 import { cn } from '@onecoach/lib-design-system';
-import type { Meal, Food } from '@onecoach/types';
+import type { Meal, Food } from "@onecoach/types-nutrition";
 
 interface MealCardProps {
   meal: Meal;

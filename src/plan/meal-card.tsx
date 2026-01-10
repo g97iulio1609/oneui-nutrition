@@ -10,14 +10,14 @@
 
 import { useMemo, useCallback, memo } from 'react';
 import { ChevronDown, ChevronRight, Plus, Trash2, Bookmark, GripVertical } from 'lucide-react';
-import type { Meal } from '@onecoach/types';
 import { FoodItemCard } from './food-item-card';
 import { FoodComboboxSection } from './food-combobox-section';
-import type { FoodItem } from '@onecoach/types';
 import { SortableList, SortableItem, type SortableItemRenderProps } from '@onecoach/ui-core';
 import { createFoodDragId } from '@onecoach/lib-shared';
 import { darkModeClasses, cn } from '@onecoach/lib-design-system';
 import { useTranslations } from 'next-intl';
+import type { Meal } from "@onecoach/types-nutrition";
+import type { FoodItem } from "@onecoach/types-nutrition";
 
 interface MealCardProps {
   meal: Meal;

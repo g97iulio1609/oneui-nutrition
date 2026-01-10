@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
  */
 
 import { ProgressRing } from '@onecoach/ui-core';
-import type { Macros } from '@onecoach/types';
+import type { Macros } from "@onecoach/types-nutrition";
 
 interface MacroDisplayProps {
   macros: Macros;

@@ -23,9 +23,9 @@ import {
   Bookmark,
   Clock,
 } from 'lucide-react';
-import type { NutritionTemplate, NutritionTemplateType } from '@onecoach/types';
 import { darkModeClasses, cn } from '@onecoach/lib-design-system';
 import { useDebounce } from '@onecoach/hooks';
+import type { NutritionTemplate, NutritionTemplateType } from "@onecoach/types-nutrition";
 
 interface TemplatesListProps {
   onSelect?: (template: NutritionTemplate) => void;
